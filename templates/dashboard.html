@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <style>
+      body {
+        background-color: lightblue;
+        text-align: center;
+        margin: 50px;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        color: blueviolet;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello you are logged in.</h1>
+    <p>
+      my name is warda and i am an aspiring full stack develoer currently doing
+      my internship at oasisinfo byte and finishing my courses online ,hopefully
+      soon will be able to work as a full stack develoepr and wishing that to you all too. good luck everyone 
+      <br> <br> feel free to connect with me on <a href="https://www.linkedin.com/in/warda-beshir-bb0072277/" target="_blank">Linkedin</a>
+     
+    </p>
+    <a href="{{url_for('logout')}}">Press here to logout</a>
+  </body>
+</html>
