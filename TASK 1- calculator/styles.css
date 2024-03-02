@@ -1,0 +1,70 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #91b360;
+    font-size: 30px;
+    
+}
+
+
+
+#input{
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    border-style: none;
+    background:transparent;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    
+}
+
+.container {
+    border-radius: 10px;
+    display: grid;
+    text-align: center;
+    row-gap: 3px;
+    justify-content: center;
+    border: 1px solid #606660;
+    padding: 20px;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+button{
+    
+    width: 50px;
+    background-color: pink;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    font-family: 'DM Mono', monospace;
+
+    
+}
+
+button:hover{
+    background-color: aliceblue;
+    outline: 1px solid red;
+}
+
+
+#enter{
+    width: 110px;
+    color: orangered;
+}
+
+
+.unique{
+    color: orangered;
+}
+
